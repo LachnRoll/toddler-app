@@ -1,0 +1,74 @@
+#user-baby-profile {
+    margin: 0;
+}
+
+#user-baby-name {
+    font-size: 22pt;
+}
+
+.age {
+    font-size: 16pt
+}
+
+.about {
+    white-space: pre-wrap;
+}
+
+.user-rating {
+    margin: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.edit-info-box {
+    border-bottom: solid 0.5px lightgray;
+}
+
+.edit-info {
+    background-color: rgb(249, 103, 103);
+    background-image: linear-gradient(to right, rgb(247, 87, 87) , rgb(249, 147, 103));    
+    display: inline-block;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 10px
+}
+
+.edit-info > a {
+    font-size: 12pt;
+    color: white;
+}
+
+.edit-info:active {
+    background-color: rgb(249, 103, 103);
+    background-image: linear-gradient(to right, rgb(247, 87, 87) , rgb(247, 87, 87)); 
+}
+
+#continue-button {
+    display: inline-block;
+    background-color: rgb(249, 103, 103);
+    background-image: linear-gradient(to right, rgb(247, 87, 87) , rgb(249, 147, 103));
+    margin-top: 10px;
+    border: none;
+    border-radius: 50px;
+}
+
+#continue-button > a {
+    color: white;
+    font-size: 12pt;
+}
+
+#delete-button {
+    border: none;
+    background-color: white;
+    padding: 5px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 700px) {
+    .edit-info {
+        font-size: 15px;
+        padding: 6.5px 35px;
+    }
+}

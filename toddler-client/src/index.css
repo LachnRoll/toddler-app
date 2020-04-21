@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100%;
+  
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background: url('https://ratemybaby-images.s3-us-west-1.amazonaws.com/logos-icons/smallfeet.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  height: 100%
+}
+
+p {
+  color: #555;
+}
+
+.blue {
+  color: #477ACC;
+}
+
+.yellow {
+  color: #EAC435;
+}
+
+.green {
+  color: #09a55e;
+}
+
+.red {
+  color: #CA1551;
+}
+
+.orange {
+  color: #FB4D3D;
+}
+
+.width-100 {
+  width: 100%;
+}

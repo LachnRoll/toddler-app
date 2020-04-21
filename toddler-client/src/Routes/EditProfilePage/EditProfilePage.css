@@ -1,0 +1,74 @@
+#edit-section {
+    display: inline-block;
+    background-color: rgb(249, 103, 103);
+    background-image: linear-gradient(to bottom right, rgb(247, 87, 87) , rgb(249, 147, 103));    
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 1.5px 3px 5px grey;
+    width: 400px;
+}
+
+#edit-form > * {
+    margin: 10px;
+}
+
+#edit-header {
+    color: white;
+    font-size: 2rem;
+    opacity: 0.9;  
+}
+
+#edit-section label {
+    color: white;
+}
+
+.editFormItems {
+    text-align: left;
+}
+
+.edit-form-label {
+    font-size: 18px;
+    margin-left: 3px;
+}
+
+.editFormButtons {
+    text-align: center;
+}
+
+.edit-input {
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 1.5px 2px 3px grey;
+    padding: 5px 10px;
+}
+
+.edit-about {
+    white-space: pre-wrap;
+    font-size: 16px;
+}
+
+.edit-buttons {
+    margin: 30px 5px 0;
+    background: white;
+    color: rgb(249, 103, 103);
+    box-shadow: 1.5px 2px 3px grey;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+#cancel-button {
+    font-size: 17.6px;
+    color: rgb(249, 103, 103);
+}
+
+.edit-buttons:active {
+    transform: translateY(2px);
+}
+
+.month-year {
+    font-size: 15px;
+}
